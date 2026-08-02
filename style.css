@@ -62,20 +62,6 @@ h1 {
   border-top: 1px solid var(--line);
 }
 
-/* ── Draft banner ─────────────────────────────
-   Remove this block, and the .draft element from each page, once counsel has
-   signed off. Until then it must be impossible to miss. */
-.draft {
-  background: var(--warn-bg);
-  border: 1.5px solid var(--warn);
-  border-radius: 12px;
-  padding: 14px 16px;
-  margin: 24px 0 8px;
-  font-size: 14.5px;
-  line-height: 1.55;
-  color: #8A3B22;
-}
-.draft strong { color: #6E2C16; }
 
 /* ── Body ─────────────────────────────────── */
 h2 {
